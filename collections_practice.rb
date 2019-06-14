@@ -23,9 +23,27 @@ def reverse_array (array)
   array.reverse
 end
 
-def 
+def kesha_maker(array)
+  i = 0 
+  new_arr = []
+  array.each do |ele|
+    new_arr << array[i][2] = $
+  end
+  new_arr
+  
+end
+
+def find_a(array)
+  
+  
+end
+  
+def sum_array(array)
   
   
 end
 
-
+def add_s(array)
+  
+  
+end
