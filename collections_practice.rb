@@ -47,4 +47,4 @@ def add_s(array)
     word << s if array[i] != 1
   end
 end
-end
+
