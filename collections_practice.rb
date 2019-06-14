@@ -42,10 +42,10 @@ def sum_array(array)
 end
 
 def add_s(array)
+  i = 0
   array.collect do |word|
-   if array[1] = word
-     word
-   else "#{word}s"
+   while array[i] != 1
+     "#{word}s"
    end
   end
 end
