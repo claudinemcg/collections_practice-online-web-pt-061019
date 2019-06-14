@@ -24,10 +24,9 @@ def reverse_array (array)
 end
 
 def kesha_maker(array)
-  i = 0 
   new_arr = []
   array.each do |ele|
-    new_arr << array.split()
+    new_arr << ele.gsub()
   end
   new_arr
   
