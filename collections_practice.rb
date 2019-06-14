@@ -27,7 +27,7 @@ def kesha_maker(array)
   i = 0 
   new_arr = []
   array.each do |ele|
-    new_arr << array[i][2] = $
+    new_arr << array.split()
   end
   new_arr
   
