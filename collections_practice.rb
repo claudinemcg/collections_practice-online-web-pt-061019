@@ -8,9 +8,9 @@ def sort_array_desc(array)
 end
 
 def sort_array_char_count(array)
-  array.select do |word|
-    a.length <=> b.length
-  end
+  array.sort do |a, b|
+  a <=> b
+end
 end
 
 
