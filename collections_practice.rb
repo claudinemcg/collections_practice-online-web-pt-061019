@@ -16,9 +16,7 @@ end
 
 
 def swap_elements(array)
-  array.select_with_index |ele, index|
-     if array[i] == 1 
-       
+  array[1], array[2] = array[2], array[1]
 end
 
 def reverse_array (array)
