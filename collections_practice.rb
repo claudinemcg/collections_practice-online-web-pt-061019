@@ -26,10 +26,9 @@ end
 def kesha_maker(array)
   new_arr = []
   array.each do |ele|
-    new_arr << ele.gsub(item[2], "$")
+    new_arr << ele.gsub(ele[2], "$")
   end
   new_arr
-  
 end
 
 def find_a(array)
