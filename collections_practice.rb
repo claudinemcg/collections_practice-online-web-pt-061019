@@ -45,5 +45,6 @@ def add_s(array)
   i = 0 
   array.collect do |word|
     word << s if i != 1
+  end
 end
 end
