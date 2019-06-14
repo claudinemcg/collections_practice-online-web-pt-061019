@@ -46,6 +46,8 @@ def add_s(array)
   array.collect do |word|
    while array[i] != 1
      "#{word}s"
+   else
+     word
    end
   end
 end
