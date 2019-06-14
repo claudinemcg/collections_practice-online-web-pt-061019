@@ -44,9 +44,9 @@ end
 def add_s(array)
   i = 0 
   array.collect do |word|
-    if array[i] = 1
-      word
-    else 
+   # if array[i] = 1
+  #    word
+   # else 
       "#{word}s"
   end
 end
